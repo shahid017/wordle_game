@@ -21,7 +21,6 @@ def wordle(guessed_word):
     return solution, False
 
 while failed_guess:
-    print(wordle_word)
     guessed_word = input('Enter Your 5 letter guess: ')
     solution, response = wordle(guessed_word)
     if response:
